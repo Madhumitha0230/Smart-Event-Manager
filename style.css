@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    font-family:Segoe UI;
+    background:#f3f4f6;
+}
+
+header{
+    background:#111827;
+    color:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.primary-btn{
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.primary-btn:hover{
+    background:#1e40af;
+}
+
+.form-container{
+    width:350px;
+    margin:80px auto;
+    padding:30px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-container input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+.form-container button{
+    width:100%;
+    padding:10px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:6px;
+}
+
+.dashboard-container, .stats{
+    display:flex;
+    gap:20px;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    flex:1;
+}

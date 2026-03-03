@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadUserDashboard()">
+
+<header>
+    <h1>User Dashboard</h1>
+    <button onclick="logout()">Logout</button>
+</header>
+
+<div class="dashboard-container">
+    <div class="card">
+        <h3>Name</h3>
+        <p id="uName"></p>
+    </div>
+
+    <div class="card">
+        <h3>Assigned Zone</h3>
+        <p id="uZone"></p>
+    </div>
+
+    <div class="card">
+        <h3>Status</h3>
+        <p id="uStatus"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

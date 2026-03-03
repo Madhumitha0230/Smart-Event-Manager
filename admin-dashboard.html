@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadAdminDashboard()">
+
+<header>
+    <h1>Admin Dashboard</h1>
+    <div>
+        <a href="scanner.html"><button>Open Scanner</button></a>
+        <button onclick="logout()">Logout</button>
+    </div>
+</header>
+
+<div class="stats">
+    <div class="card">
+        <h3>Total Registered</h3>
+        <p id="total"></p>
+    </div>
+
+    <div class="card">
+        <h3>Currently Inside</h3>
+        <p id="inside"></p>
+    </div>
+</div>
+
+<h2>All Attendees</h2>
+<div id="userList"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
